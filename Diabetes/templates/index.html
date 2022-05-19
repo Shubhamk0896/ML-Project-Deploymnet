@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+     <h1>Diabetes Prediction </h1>
+    <form action="{{ url_for("gfg")}}" method="post">
+<label for="pregnancies">pregnancies:</label>
+<input type="text" id="Pregnancies" name="pregnancies" placeholder="pregnancies">
+
+<label for="glucose">glucose:</label>
+<input type="text" id="glucose" name="glucose" placeholder="glucose">
+
+<label for="bloodpressure">bloodpressure:</label>
+<input type="text" id="bloodpressure" name="bloodpressure" placeholder="bloodpressure">
+
+<label for="skinthickness">skinthickness:</label>
+<input type="text" id="skinthickness" name="skinthickness" placeholder="skinthickness">
+
+<label for="insulin">insulin:</label>
+<input type="text" id="insulin" name="insulin" placeholder="insulin">
+
+<label for="bmi">bmi:</label>
+<input type="text" id="bmi" name="bmi" placeholder="bmi">
+
+<label for="diabetespedigreefunction">diabetespedigreefunction:</label>
+<input type="text" id="diabetespedigreefunction" name="diabetespedigreefunction" placeholder="diabetespedigreefunction">
+
+<label for="Age">Age:</label>
+<input type="text" id="Age" name="Age" placeholder="Age">
+
+
+     <button type="submit">Predict</button>
+
+
+</body>
+</html>
