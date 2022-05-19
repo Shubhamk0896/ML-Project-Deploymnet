@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+</head>
+<body>
+    <h1>Yearly Amount Spent </h1>
+    <form action="{{ url_for("gfg")}}" method="post">
+<label for="Avg_Session_Length">Avg. Session Length:</label>
+<input type="text" id="Avg_Session_Length" name="Avg_Session_Length" placeholder="Avg_Session_Length">
+
+<label for="Time_on_App">Time on App:</label>
+<input type="text" id="Time_on_App" name="Time_on_App" placeholder="Time_on_App">
+
+    <label for="Time_on_Website">Time on Website:</label>
+<input type="text" id="Time_on_Website" name="Time_on_Website" placeholder="Time on Website">
+
+    <label for="Length_of_Membership">Length of Membership:</label>
+<input type="text" id="Length_of_Membership" name="Length_of_Membership" placeholder="Length_of_Membership">
+
+    
+
+<button type="submit">Predict</button>
+</body>
+</html>
